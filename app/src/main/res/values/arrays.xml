@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="umeng_fb_contact_key_array">
+        <item>@string/umeng_fb_contact_key_email</item>
+        <item>@string/umeng_fb_contact_key_qq</item>
+        <item>@string/umeng_fb_contact_key_phone</item>
+        <item>@string/umeng_fb_contact_key_other</item>
+    </string-array>
+    <string-array name="umeng_fb_contact_type_array">
+        <item>@string/umeng_fb_contact_email</item>
+        <item>@string/umeng_fb_contact_qq</item>
+        <item>@string/umeng_fb_contact_phone</item>
+        <item>@string/umeng_fb_contact_other</item>
+    </string-array>
+    <string-array name="bottom_bar_labels">
+        <item>@string/home</item>
+        <item>@string/all_goods</item>
+        <item>@string/recommend</item>
+        <item>@string/shopping_cart</item>
+        <item>@string/my_store</item>
+    </string-array>
+    <string-array name="options">
+        <item>选择照片</item>
+        <item>拍照</item>
+    </string-array>
+</resources>

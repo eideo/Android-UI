@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ll_title_head"
+    android:layout_width="fill_parent"
+    android:layout_height="38.0dip"
+    android:orientation="horizontal"
+    android:paddingTop="6.0dip">
+
+    <ImageView
+        android:id="@id/iv_main_customer_service"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:src="@mipmap/icon_main_customer_service" />
+
+    <RelativeLayout
+        android:id="@id/search_title_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@drawable/shape_gray_search_edit"
+        android:clickable="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@id/search_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="搜索菜品名称"
+            android:textColor="@color/com_white"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:id="@id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@id/search_edit"
+            android:layout_alignTop="@id/search_edit"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/search_edit"
+            android:paddingRight="5.0dip"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_search_copy" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/iv_main_message"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10.0dip"
+        android:clickable="true"
+        android:paddingLeft="10.0dip"
+        android:src="@mipmap/icon_main_message" />
+</LinearLayout>
